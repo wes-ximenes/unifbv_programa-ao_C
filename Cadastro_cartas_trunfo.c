@@ -16,7 +16,7 @@ struct Carta {
 int main() {
     struct Carta carta1, carta2; //A estrutura não foi passada na primeira aula, pesquisada por fora, afim de organização do código.
 
-    printf("--- Cadastro da Carta 1 ---\n");
+    printf("------ Cadastro da Carta 1 ------\n");
 
     printf("Informe o estado (A-H): ");
     scanf(" %c", &carta1.estado);
@@ -42,7 +42,7 @@ int main() {
     // Pra limpar o terminal antes da próxima carta
     getchar();
 
-    printf("\n=== Cadastro da Carta 2 ===\n");
+    printf("\n------ Cadastro da Carta 2 ------\n");
 
     printf("Informe o estado (A-H): ");
     scanf(" %c", &carta2.estado);
@@ -66,7 +66,7 @@ int main() {
     scanf("%d", &carta2.pontosTuristicos);
 
     // Saída
-    printf("\n=== Carta 1 ===\n");
+    printf("\n------- Carta 1 -------\n");
     printf("Estado: %c\n", carta1.estado);
     printf("Código: %s\n", carta1.codigo);
     printf("Nome da Cidade: %s\n", carta1.nomeCidade);
@@ -75,7 +75,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", carta1.pib);
     printf("Número de Pontos Turísticos: %d\n", carta1.pontosTuristicos);
 
-    printf("\n=== Carta 2 ===\n");
+    printf("\n------- Carta 2 ------\n");
     printf("Estado: %c\n", carta2.estado);
     printf("Código: %s\n", carta2.codigo);
     printf("Nome da Cidade: %s\n", carta2.nomeCidade);
