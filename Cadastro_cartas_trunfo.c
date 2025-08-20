@@ -1,13 +1,13 @@
 //Desafio 1 de introdução a programação, para cadastrar 2 cartas de super trunfo:
-//Desafio 2 de intridução a programação, adicionar um mecanismo de cálculo de densidade populacional e PIB per capita, e imprimir os resultados.
+//Desafio 2 de introdução a programação, adicionar um mecanismo de cálculo de densidade populacional e PIB per capita, e imprimir os resultados.
 //O VS CODE não está imprimindo acentos e caracteres especiais.
 
 #include <stdio.h>
 
 // Estrutura de uma carta de Super Trunfo
 struct Carta {
-    char estado;                  // Letra de 'A' a 'H'
-    char codigo[4];              // Ex: A01, B03
+    char estado;                // Letra de 'A' a 'H'
+    char codigo[4];             // Ex: A01, B03
     char nomeCidade[50];        // Nome da cidade
     int populacao;              // Número de habitantes
     float area;                 // Área em km²
